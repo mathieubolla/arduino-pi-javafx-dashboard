@@ -81,6 +81,6 @@ Then, solder a TMP36 sensor to:
 |Tmp|Analog A0|
 |GND|GND|
 
-Then, some code... ** TO DO **
+Then, some code... [Here](https://github.com/mathieubolla/arduino-pi-javafx-dashboard/blob/master/arduino/sketch.ino).
 
 That's it, you get the temperature! Accuracy is theorically .33°C, but with heavy smoothing and averages and oversampling, it should be well over that limit (Java code handles all the gory details for you...)
