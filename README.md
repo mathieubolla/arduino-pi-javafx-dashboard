@@ -1,6 +1,17 @@
 JavaFX dashboard featuring Thermoduino
 ===
 
+Executive summary
+---
+
+This project will, given some requirements, provide you with a nice dashboard featuring:
+
+- Your nice HD TV thanks to HDMI port on your Raspberry Pi
+- Date and time from Timeapi.com for your timezone and prefered display, because dates and times are not Raspberry Pi's main feature. (sure, you can solder some RTC board, but see below...)
+- Weather forecast from Wunderground.com for your location, because that is what Misses Jones asked for. (woman acceptance factor is a HUGE factor for something lying in front of the sofa below that nice HD TV...)
+- Room temperature, because you can do it, and needed a justification for that 35$+ bill of materials from SparkFun electronics. (sure, you could have bought a thermometer, but who sells 55' OLED screen thermometers?)
+- Your servers statuses, because that is what makes you a billionaire and should stay center front in the living room
+
 Requirements
 ---
 
