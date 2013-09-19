@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="360.0" prefHeight="360.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="samplejavafx.SampleController">
+  <children>
+    <Pane layoutX="14.0" layoutY="102.0" prefHeight="78.0" prefWidth="626.0">
+      <children>
+        <ImageView fx:id="current" fitHeight="75.0" fitWidth="75.0" layoutX="206.0" layoutY="0.0">
+          <image>
+            <Image url="http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="dayOne" fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="6.0">
+          <image>
+            <Image url="http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="dayTwo" fitHeight="50.0" fitWidth="50.0" layoutX="379.0" layoutY="6.0">
+          <image>
+            <Image url="http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif" />
+          </image>
+        </ImageView>
+        <ImageView fx:id="dayThree" fitHeight="50.0" fitWidth="50.0" layoutX="459.0" layoutY="6.0">
+          <image>
+            <Image url="http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif" />
+          </image>
+        </ImageView>
+        <Label fx:id="labelCurrentTemp" alignment="CENTER" layoutX="87.0" layoutY="13.0" minHeight="14.0" prefHeight="50.0" prefWidth="75.0" text="32.71°C" textAlignment="CENTER">
+          <font>
+            <Font name="System Bold" size="15.0" fx:id="x5" />
+          </font>
+          <textFill>
+            <Color blue="0.200" green="0.200" red="1.000" fx:id="x1" />
+          </textFill>
+        </Label>
+        <Label id="labelCurrentTemp" fx:id="labelMaxTemp" layoutX="160.0" layoutY="3.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x1">
+          <font>
+            <Font size="13.0" fx:id="x2" />
+          </font>
+        </Label>
+        <Label id="labelCurrentTemp" fx:id="labelMinTemp" font="$x2" layoutX="160.0" layoutY="23.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0001220703125" text="12°C" textAlignment="CENTER">
+          <textFill>
+            <Color blue="1.000" green="0.400" red="0.000" fx:id="x3" />
+          </textFill>
+        </Label>
+        <Label id="labelCurrentTemp" fx:id="forecastMax1" font="$x2" layoutX="327.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x1" />
+        <Label id="labelCurrentTemp" fx:id="forecastMin1" font="$x2" layoutX="291.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x3" />
+        <Label id="labelCurrentTemp" fx:id="forecastMax2" font="$x2" layoutX="407.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.000099999997474" text="40°C" textAlignment="CENTER" textFill="$x1" />
+        <Label id="labelCurrentTemp" fx:id="forecastMin2" font="$x2" layoutX="372.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x3" />
+        <Label id="labelCurrentTemp" fx:id="forecastMax3" font="$x2" layoutX="483.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x1" />
+        <Label id="labelCurrentTemp" fx:id="forecastMin3" font="$x2" layoutX="448.0" layoutY="37.0" minHeight="14.0" prefHeight="50.0" prefWidth="52.0" text="40°C" textAlignment="CENTER" textFill="$x3" />
+        <Label id="labelCurrentTemp" fx:id="roomTemperature" alignment="CENTER" font="$x5" layoutX="16.0" layoutY="13.0" minHeight="14.0" prefHeight="50.0" prefWidth="70.0" text="32.71°C" textAlignment="CENTER" textFill="$x1" />
+      </children>
+    </Pane>
+    <Label fx:id="labelDateTime" alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="14.0" layoutY="63.0" prefHeight="27.0" prefWidth="612.0" text="12/09/2013 17h52" textAlignment="CENTER" wrapText="false">
+      <font>
+        <Font size="15.0" />
+      </font>
+    </Label>
+    <Line endX="303.0" endY="0.0" layoutX="320.0" layoutY="101.0" startX="-303.0" startY="0.0" />
+    <Line endX="303.0" endY="0.0" layoutX="321.0" layoutY="182.0" startX="-303.0" startY="0.0" />
+    <Circle fx:id="scorerStatus" fill="DODGERBLUE" layoutX="237.0" layoutY="245.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fx:id="resizrStatus" fill="DODGERBLUE" layoutX="320.0" layoutY="245.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fx:id="commentrStatus" fill="DODGERBLUE" layoutX="408.0" layoutY="245.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="215.0" layoutY="239.0" text="SCORER">
+      <font>
+        <Font name="System Bold" size="10.0" fx:id="x4" />
+      </font>
+    </Label>
+    <Label font="$x4" layoutX="301.0" layoutY="239.0" text="RESIZR" />
+    <Label font="$x4" layoutX="377.0" layoutY="239.0" text="COMMENTR" />
+  </children>
+</AnchorPane>
